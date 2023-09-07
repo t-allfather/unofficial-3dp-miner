@@ -1258,6 +1258,7 @@ void help()
     printf("--use-sha : some optimizations\n");
     printf("--threads : number of cpu threads\n");
     printf("--affinity : cpu thread affinity (advanced)\n");
+    printf("--gpu : gpu mining toggle\n");
 }
 
 void getNodeMeta()
