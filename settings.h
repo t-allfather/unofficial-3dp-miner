@@ -1,0 +1,31 @@
+#define RUN_ON_CPU 0
+#define RUN_ON_GPU 1
+#define CUDA_API __host__ __device__
+
+#define  MESH_NOISE_SCALE_MIN  0.4 //0.5
+#define  MESH_NOISE_SCALE_MAX  5.0 //5.0
+#define  MESH_NOISE_SCALE_VARY  0.1
+
+#define  MESH_NOISE_STRENGTH_MIN  0.0
+#define  MESH_NOISE_STRENGTH_MAX  0.5
+#define  MESH_NOISE_STRENGTH_VARY  0.05
+
+#define SCRAPE_COUNT_MIN  0
+#define SCRAPE_COUNT_MAX  15
+#define SCRAPE_COUNT_VARY  2
+
+#define  SCRAPE_MIN_DIST_MIN  0.2
+#define  SCRAPE_MIN_DIST_MAX  1.0
+#define  SCRAPE_MIN_DIST_VARY  0.05
+
+#define  SCRAPE_STRENGTH_MIN  0.1
+#define  SCRAPE_STRENGTH_MAX  0.6
+#define  SCRAPE_STRENGTH_VARY  0.05
+
+#define  SCRAPE_RADIUS_MIN  0.1
+#define  SCRAPE_RADIUS_MAX  0.5
+#define  SCRAPE_RADIUS_VARY  0.05
+
+#define  SCALE_MIN  +1.0
+#define  SCALE_MAX  +2.0
+#define  SCALE_VARY  +0.1
