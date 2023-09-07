@@ -14,7 +14,7 @@ To run the `3dp-miner`, open a terminal or command prompt and navigate to the di
 
 | Option         | Description                                                                                   | Required | Example Usage                           |
 |----------------|-----------------------------------------------------------------------------------------------|----------|-----------------------------------------|
-| `--host [text]`  | Specify the IP address and port for the mining pool.                                         | Yes      | `--host example.com:12345`              |
+| `--host [text]`  | Specify the IP address and port for the [easy3dp node](https://github.com/easy-3dp/3DP).                                         | Yes      | `--host example.com:12345`              |
 | `--use-sha`      | Enable optimizations for mining.                                                             | No       | `--use-sha`                             |
 | `--threads [number]` | Specify the number of CPU threads to use for mining.                                       | No       | `--threads 4`                           |
 | `--affinity`     | Use advanced CPU thread affinity settings.                                                    | No       | `--affinity`                            |
