@@ -21,3 +21,16 @@ To run the `3dp-miner`, open a terminal or command prompt and navigate to the di
 | `--gpu`          | Toggle CUDA GPU mining (if supported by hardware).                                                 | No       | `--gpu`                                  |
 
 You can use these options when running the `3dp-miner` executable to customize its behavior according to your mining requirements.
+
+## Hashrate Comparison Chart
+
+| Hardware    | Approx. Hashrate (KH/s) | Approx. Old Hashrate (KH/s) |
+|-------------|-----------------|-----------------------|
+| AMD EPYC 7742     | 180.5 | - |
+| Ryzen 7900x       | 165   | - |
+| Ryzen 5950x       | 159   | 11    |
+| Ryzen 5900x       | 122   | 8.5   |
+| RTX 4090          | 69    | N/A   |
+| RTX 4070          | 35    | N/A   |
+| Ryzen 3600x       | 58    | 5     |
+| i7-6800k          | 34    | 2     |
