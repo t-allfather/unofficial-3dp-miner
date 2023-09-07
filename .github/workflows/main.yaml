@@ -38,7 +38,7 @@ jobs:
       run: |
         cd src/build
         make -j$(nproc)
-        ls
+        chmod +x ./3dp-miner
       working-directory: ${{ github.workspace }}
 
     
