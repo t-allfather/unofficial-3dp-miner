@@ -34,3 +34,5 @@ You can use these options when running the `3dp-miner` executable to customize i
 | RTX 4070          | 35    | N/A   |
 | Ryzen 3600x       | 58    | 5     |
 | i7-6800k          | 34    | 2     |
+| AMD EPYC  7v12    | 260   | 20    |
+| AMD EPYC  7642    | 160   | 15    |
