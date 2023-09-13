@@ -39,6 +39,7 @@ jobs:
         cd src/build
         make -j$(nproc)
         chmod +x ./3dp-miner
+        tar -czf 3dp-miner_ubuntu22.tar.gz ./3dp-miner
       working-directory: ${{ github.workspace }}
 
     
@@ -46,7 +47,7 @@ jobs:
       uses: ncipollo/release-action@v1.13.0
       with:
         artifacts: |
-          src/build/3dp-miner
+          src/build/3dp-miner_ubuntu22.tar.gz
         draft: true
         prerelease: false
         skipIfReleaseExists: true
