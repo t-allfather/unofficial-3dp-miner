@@ -36,5 +36,11 @@ You can use these options when running the `3dp-miner` executable to customize i
 | i7-6800k          | 34    | 2     |
 |-------------|-----------------|-----------------------|
 | AMD EPYC  7v12    | 260   | 20    |
-| AMD EPYC  7642    | 160   | 15    |
-| nvidia 90hx       | 30    | -     |
+| AMD EPYC  7642    | 160   | -     |
+| AMD 5800H         | 85    | -     |
+| AMD 5900X         | 120   | -     |
+| AMD 5800X         |  80   | -     |
+| AMD 3900X         | 90   | -     |
+| RTX 3070          | 14    | -     |
+| RTX 3060ti        | 13    | -     |
+| nvidia 90hx       | 15    | -     |
