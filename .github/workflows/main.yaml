@@ -52,4 +52,4 @@ jobs:
         prerelease: false
         skipIfReleaseExists: true
         artifactErrorsFailBuild: true
-        tag: latest
+        tag: latest-${{ github.event.ref }}
