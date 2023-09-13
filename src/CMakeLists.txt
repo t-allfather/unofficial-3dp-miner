@@ -15,7 +15,7 @@ set(CUDA_FILES "")
 set(STATIC_FLAGS "")
 
 if(USE_STATIC)
-set(STATIC_FLAGS "-static")
+set(STATIC_FLAGS "-static-libgcc -static-libstdc++")
 endif()
 
 if(USE_CLANG)
