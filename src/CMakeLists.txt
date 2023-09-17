@@ -7,7 +7,7 @@ enable_language(C)
 
 set(USE_CLANG FALSE)
 set(USE_CUDA TRUE)
-set(USE_STATIC TRUE)
+set(USE_STATIC FALSE)
 
 set(CLANG_FLAGS "")
 
